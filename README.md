@@ -2,6 +2,10 @@
 
 Welcome to the documentation for LeanPlateform API. This API provides endpoints for managing users, booking sessions, pre-session activities, and feedback functionalities. Below you'll find details about each endpoint along with examples of requests.
 
+## Demonstration video
+
+https://www.youtube.com/watch?v=dOy8niMXwVc
+
 ## Base URL
 
 https://leanplateform.onrender.com
