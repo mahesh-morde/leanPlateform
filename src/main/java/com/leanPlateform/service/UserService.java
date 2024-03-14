@@ -49,7 +49,7 @@ public class UserService {
 
     public boolean isValidPassword(String username, String password) {
         User user = userRepository.findByUsername(username);
-        // Implement password validation logic (e.g., using BCryptPasswordEncoder)
+        // Need to Implement password validation logic (e.g., using BCryptPasswordEncoder)
         // For simplicity, this example assumes a plain text password
         return user != null && user.getPassword().equals(password);
     }
@@ -85,20 +85,20 @@ public class UserService {
     }
 
     public void selectDocumentsForSession(Long consultantId, List<String> documentList) {
-        // Implement logic to store selected documents for a session
+        // Need To Implement logic to store selected documents for a session
     }
 
     public List<String> getDocumentsForSession(Long clientId) {
-        // Implement logic to retrieve selected documents for a session
+        // Need To Implement logic to retrieve selected documents for a session
         return Collections.emptyList();
     }
 
     public void uploadDocuments(Long clientId, List<String> documents) {
-        // Implement logic to store uploaded documents
+        // Need To Implement logic to store uploaded documents
     }
 
     public List<String> getUploadedDocuments(Long consultantId) {
-        // Implement logic to retrieve uploaded documents
+        // Need To Implement logic to retrieve uploaded documents
         return Collections.emptyList();
     }
 
@@ -118,8 +118,8 @@ public class UserService {
 
                 reviewRepository.save(review);
             } else {
-                // Handle the case where the session is not found
-                // You may want to log an error or throw an exception
+                // Need To Handle the case where the session is not found
+                // want to log an error or throw an exception
             }
         }
     
